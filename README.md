@@ -1,5 +1,5 @@
 # builder-awscli-ansible
-Docker image for a build pipeline using AWS cli and Ansible.
+Docker image providing AWS cli and Ansible for use in a build pipeline.
 
 The motivation behind the image was to group a set of tools I
 frequently need and have them reasonably updated on a recent
@@ -35,6 +35,15 @@ When configured, run whatever commands is required to perform the
 wanted tasks, typically utilzing the AWS cli and Ansible.
 
 The entrypoint is set to _/bin/sh_.
+
+## Roadmap
+
+Very little is planned for this image!
+Maintenance:
+
+ * update version of included tools
+ * add other utility tools (typically used in shell scripts)
+
 
 ## License
 
