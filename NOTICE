@@ -1,0 +1,9 @@
+=========================================================================
+==  NOTICE file corresponding to section 4(d) of the Apache License,
+==  Version 2.0, in this case for the GitHub repository
+==  kristwaa/builder-aws-ansible.
+==
+=========================================================================
+
+The GitHub repository mesosphere/aws-cli was used as a starting point.
+In August 2018 that code was licensed under Apache License Version 2.0.
