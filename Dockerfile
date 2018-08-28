@@ -1,20 +1,33 @@
 FROM alpine:3.8
 # Inspired by mesosphere/aws-cli
-RUN apk -v --update add \
+RUN apk --no-cache -v --update add \
+        g++ \
+        make \
+        python3-dev \
+        libffi-dev \
+        openssl-dev \
         python3 \
-        ansible \
         zip \
         jq \
         groff \
         less \
         mailcap \
       && \
-    pip3 install --upgrade pip \
+    pip3 install --no-cache-dir --upgrade \
+        pip \
+        setuptools \
       && \
-    pip3 install --upgrade \
+    pip3 install --no-cache-dir --upgrade \
         awscli==1.16.1 \
         s3cmd==2.0.2 \
         python-magic \
+        ansible \
+      && \
+    apk del --purge \
+        python3-dev \
+        g++ \
+        libffi-dev \
+        openssl-dev \
       && \
     rm /var/cache/apk/*
 ENTRYPOINT ["/bin/sh"]
