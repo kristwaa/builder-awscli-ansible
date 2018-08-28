@@ -5,6 +5,7 @@ RUN apk --no-cache -v --update add \
         make \
         python3-dev \
         libffi-dev \
+        openssl \
         openssl-dev \
         python3 \
         zip \
