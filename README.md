@@ -8,9 +8,9 @@ lightweight operating system.
 
 ## Tools provided by image
 
-* initial version:
+* initial version:  
   aws cli, s3cmd, ansible, zip, jq
-* v2.0.0:
+* v2.0.0:  
   aws cli, s3cmd, ansible, zip, jq, **bash (+)**
 
 
