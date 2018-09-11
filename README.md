@@ -10,6 +10,8 @@ lightweight operating system.
 
 * initial version:
   aws cli, s3cmd, ansible, zip, jq
+* v2.0.0:
+  aws cli, s3cmd, ansible, zip, jq, **bash (+)**
 
 
 ## Build
