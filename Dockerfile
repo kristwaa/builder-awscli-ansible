@@ -1,6 +1,7 @@
 FROM alpine:3.8
 # Inspired by mesosphere/aws-cli
 RUN apk --no-cache -v --update add \
+        bash \
         g++ \
         make \
         python3-dev \
