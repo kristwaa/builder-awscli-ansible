@@ -35,4 +35,4 @@ RUN apk --no-cache -v --update add \
     ln -s /usr/bin/python3 /usr/bin/python \
       && \
     rm /var/cache/apk/*
-ENTRYPOINT ["/bin/sh"]
+ENTRYPOINT ["/bin/bash"]
